@@ -1,0 +1,1178 @@
+id: b2225b6b-e2df-4165-800e-7ce606c7f2a7
+name: Development
+type: 1
+canvas_id: 206b6ce2-8204-42b2-8c36-441aedc4010f
+blocks:
+- auto_size: false
+  canvas_id: 206b6ce2-8204-42b2-8c36-441aedc4010f
+  compute_settings:
+    compute_environment_type: 1
+    executor_image_id: null
+  description: Comprehensive task and subtask management system with full CRUD operations,
+    parent-child hierarchy, state machine transitions, and assignment tracking
+  height: 1000
+  id: 01b3b003-b515-4879-b18d-3bbc050358f0
+  layer_id: b2225b6b-e2df-4165-800e-7ce606c7f2a7
+  name: task_crud_system
+  parent_id: null
+  properties: {}
+  status: 3
+  type: 1
+  variables: null
+  width: 1600
+  x: 0
+  y: 52400
+- auto_size: false
+  canvas_id: 206b6ce2-8204-42b2-8c36-441aedc4010f
+  compute_settings:
+    compute_environment_type: 1
+    executor_image_id: null
+  description: React task UI components with filters and cards for task management
+    views
+  height: 1000
+  id: 036e7a4e-c185-4b7e-aca2-895072ae5f1a
+  layer_id: b2225b6b-e2df-4165-800e-7ce606c7f2a7
+  name: task_ui_components
+  parent_id: null
+  properties: {}
+  status: 3
+  type: 1
+  variables: null
+  width: 1600
+  x: 0
+  y: 55400
+- auto_size: false
+  canvas_id: 206b6ce2-8204-42b2-8c36-441aedc4010f
+  compute_settings:
+    compute_environment_type: 1
+    executor_image_id: null
+  description: Tests tenant isolation middleware with JWT extraction, token validation,
+    and cross-organization access blocking
+  height: 1000
+  id: 0399eb24-acc3-4b5a-b010-585fbac98591
+  layer_id: b2225b6b-e2df-4165-800e-7ce606c7f2a7
+  name: test_tenant_isolation
+  parent_id: null
+  properties: {}
+  status: 3
+  type: 1
+  variables: null
+  width: 1600
+  x: 4000
+  y: 3000
+- auto_size: false
+  canvas_id: 206b6ce2-8204-42b2-8c36-441aedc4010f
+  compute_settings:
+    compute_environment_type: 1
+    executor_image_id: null
+  description: Tracks organization, member, and invitation changes with full audit
+    trail including timestamps, user context, and old/new values for compliance
+  height: 1000
+  id: 0e5c9470-f498-4f44-a83c-d82988b6cad2
+  layer_id: b2225b6b-e2df-4165-800e-7ce606c7f2a7
+  name: audit_logging_system
+  parent_id: null
+  properties: {}
+  status: 3
+  type: 1
+  variables: null
+  width: 1600
+  x: 0
+  y: 36000
+- auto_size: false
+  canvas_id: 206b6ce2-8204-42b2-8c36-441aedc4010f
+  compute_settings:
+    compute_environment_type: 1
+    executor_image_id: null
+  description: ''
+  height: 1000
+  id: 120092b7-53b3-4147-9f78-4f194577d3e8
+  layer_id: b2225b6b-e2df-4165-800e-7ce606c7f2a7
+  name: dashboard_ui_landing_page
+  parent_id: null
+  properties: {}
+  status: 3
+  type: 1
+  variables: null
+  width: 1600
+  x: 0
+  y: 76400
+- auto_size: false
+  canvas_id: 206b6ce2-8204-42b2-8c36-441aedc4010f
+  compute_settings:
+    compute_environment_type: 1
+    executor_image_id: null
+  description: React/TypeScript UI components for project management (list page, card
+    & row views) with search, filtering, status badges, visibility indicators, and
+    quick actions (archive/delete)
+  height: 1000
+  id: 136137a5-a405-4c50-a708-81e8c9f63410
+  layer_id: b2225b6b-e2df-4165-800e-7ce606c7f2a7
+  name: project_ui_components
+  parent_id: null
+  properties: {}
+  status: 3
+  type: 1
+  variables: null
+  width: 1600
+  x: 0
+  y: 49400
+- auto_size: false
+  canvas_id: 206b6ce2-8204-42b2-8c36-441aedc4010f
+  compute_settings: null
+  description: Comprehensive guide documenting complete production-ready frontend
+    authentication system with login/signup pages, OAuth integration, protected routes,
+    token refresh, and global error handling
+  height: 1000
+  id: 1657f976-c8ca-4fe8-9892-740ebc463718
+  layer_id: b2225b6b-e2df-4165-800e-7ce606c7f2a7
+  name: implementation_summary
+  parent_id: null
+  properties: {}
+  status: 1
+  type: 4
+  variables: null
+  width: 1600
+  x: 2000
+  y: 30000
+- auto_size: false
+  canvas_id: 206b6ce2-8204-42b2-8c36-441aedc4010f
+  compute_settings:
+    compute_environment_type: 1
+    executor_image_id: null
+  description: Creates TypeScript API service layer with auto-refreshing JWT tokens,
+    auth service, and React hooks for seamless API communication
+  height: 1000
+  id: 16d41e6b-bfdd-47b1-a614-a871554f28c5
+  layer_id: b2225b6b-e2df-4165-800e-7ce606c7f2a7
+  name: token_aware_api_service
+  parent_id: null
+  properties: {}
+  status: 3
+  type: 1
+  variables: null
+  width: 1600
+  x: 0
+  y: 24000
+- auto_size: false
+  canvas_id: 206b6ce2-8204-42b2-8c36-441aedc4010f
+  compute_settings:
+    compute_environment_type: 1
+    executor_image_id: null
+  description: Implements full project lifecycle management with soft delete, archive/restore,
+    role-based member access, and three-level visibility (private/team/organization)
+    scoped to tenant organizations
+  height: 1000
+  id: 1c9698a2-da8b-4cdc-9f39-5bbd1a7bbdd9
+  layer_id: b2225b6b-e2df-4165-800e-7ce606c7f2a7
+  name: project_crud_system
+  parent_id: null
+  properties: {}
+  status: 3
+  type: 1
+  variables: null
+  width: 1600
+  x: 0
+  y: 42000
+- auto_size: false
+  canvas_id: 206b6ce2-8204-42b2-8c36-441aedc4010f
+  compute_settings:
+    compute_environment_type: 1
+    executor_image_id: null
+  description: Exports React task views with list and Kanban board layouts featuring
+    drag-and-drop, filtering, sorting, and status grouping
+  height: 1000
+  id: 2106dfa9-6913-47ee-b115-f17293fe5511
+  layer_id: b2225b6b-e2df-4165-800e-7ce606c7f2a7
+  name: task_list_kanban_views
+  parent_id: null
+  properties: {}
+  status: 3
+  type: 1
+  variables: null
+  width: 1600
+  x: 2000
+  y: 55400
+- auto_size: false
+  canvas_id: 206b6ce2-8204-42b2-8c36-441aedc4010f
+  compute_settings:
+    compute_environment_type: 1
+    executor_image_id: null
+  description: ''
+  height: 1000
+  id: 22296c92-be23-40a0-8ae1-4de968d16476
+  layer_id: b2225b6b-e2df-4165-800e-7ce606c7f2a7
+  name: assignment_workflows
+  parent_id: null
+  properties: {}
+  status: 3
+  type: 1
+  variables: null
+  width: 1600
+  x: 6000
+  y: 55400
+- auto_size: false
+  canvas_id: 206b6ce2-8204-42b2-8c36-441aedc4010f
+  compute_settings:
+    compute_environment_type: 1
+    executor_image_id: null
+  description: Defines 5-tier RBAC system with hierarchical roles, permission matrix
+    for 9 resources, and permission checker with validation tests
+  height: 1000
+  id: 25b07de5-be31-4b5a-8bd1-4e358e460beb
+  layer_id: b2225b6b-e2df-4165-800e-7ce606c7f2a7
+  name: rbac_roles_permissions
+  parent_id: null
+  properties: {}
+  status: 3
+  type: 1
+  variables: null
+  width: 1600
+  x: 0
+  y: 15000
+- auto_size: false
+  canvas_id: 206b6ce2-8204-42b2-8c36-441aedc4010f
+  compute_settings:
+    compute_environment_type: 1
+    executor_image_id: null
+  description: Tier-based rate limiting system using sliding window algorithm with
+    per-minute/hour limits for Free, Pro, and Enterprise tiers; includes request tracking,
+    burst protection, and standard rate limit headers
+  height: 1000
+  id: 2647be13-de21-40bd-b2ab-5f1c802fc50d
+  layer_id: b2225b6b-e2df-4165-800e-7ce606c7f2a7
+  name: rate_limiting_system
+  parent_id: null
+  properties: {}
+  status: 3
+  type: 1
+  variables: null
+  width: 1600
+  x: 0
+  y: 64400
+- auto_size: false
+  canvas_id: 206b6ce2-8204-42b2-8c36-441aedc4010f
+  compute_settings:
+    compute_environment_type: 1
+    executor_image_id: null
+  description: ''
+  height: 1000
+  id: 34a54f2b-8bbb-4fce-a123-137dabd385b1
+  layer_id: b2225b6b-e2df-4165-800e-7ce606c7f2a7
+  name: notification_api_endpoints
+  parent_id: null
+  properties: {}
+  status: 3
+  type: 1
+  variables: null
+  width: 1600
+  x: 0
+  y: 82400
+- auto_size: false
+  canvas_id: 206b6ce2-8204-42b2-8c36-441aedc4010f
+  compute_settings:
+    compute_environment_type: 1
+    executor_image_id: null
+  description: Creates JWT token manager with secure access and refresh token generation,
+    validation, and rotation capabilities
+  height: 1000
+  id: 40d6ddf6-156b-4c40-b888-dfc12902525e
+  layer_id: b2225b6b-e2df-4165-800e-7ce606c7f2a7
+  name: jwt_token_manager
+  parent_id: null
+  properties: {}
+  status: 3
+  type: 1
+  variables: null
+  width: 1600
+  x: 0
+  y: 3000
+- auto_size: false
+  canvas_id: 206b6ce2-8204-42b2-8c36-441aedc4010f
+  compute_settings:
+    compute_environment_type: 1
+    executor_image_id: null
+  description: ''
+  height: 1000
+  id: 49b7e9ba-407a-4a6d-9e5f-b2df964a0993
+  layer_id: b2225b6b-e2df-4165-800e-7ce606c7f2a7
+  name: realtime_notification_center
+  parent_id: null
+  properties: {}
+  status: 4
+  type: 1
+  variables: null
+  width: 1600
+  x: 2000
+  y: 62800
+- auto_size: false
+  canvas_id: 206b6ce2-8204-42b2-8c36-441aedc4010f
+  compute_settings:
+    compute_environment_type: 1
+    executor_image_id: null
+  description: Comprehensive test suite validating complete project lifecycle with
+    CRUD operations, soft delete/archive, role-based access, tenant isolation, and
+    visibility hierarchy
+  height: 1000
+  id: 4e49f616-e7d5-418e-a3b4-62dd24095c2e
+  layer_id: b2225b6b-e2df-4165-800e-7ce606c7f2a7
+  name: test_project_lifecycle
+  parent_id: null
+  properties: {}
+  status: 4
+  type: 1
+  variables: null
+  width: 1600
+  x: 2000
+  y: 43400
+- auto_size: false
+  canvas_id: 206b6ce2-8204-42b2-8c36-441aedc4010f
+  compute_settings:
+    compute_environment_type: 1
+    executor_image_id: null
+  description: ''
+  height: 1000
+  id: 50d24892-314d-4444-883b-f6d93defd257
+  layer_id: b2225b6b-e2df-4165-800e-7ce606c7f2a7
+  name: performance_monitoring_setup
+  parent_id: null
+  properties: {}
+  status: 3
+  type: 1
+  variables: null
+  width: 1600
+  x: 0
+  y: 97400
+- auto_size: false
+  canvas_id: 206b6ce2-8204-42b2-8c36-441aedc4010f
+  compute_settings:
+    compute_environment_type: 1
+    executor_image_id: null
+  description: Comprehensive test suite validating event-driven notification system
+    with task workflow integration, covering user preferences, task assignments, status
+    changes, due dates, and message read tracking
+  height: 1000
+  id: 53482190-564c-4127-907e-16b85d0b928a
+  layer_id: b2225b6b-e2df-4165-800e-7ce606c7f2a7
+  name: test_notification_system
+  parent_id: null
+  properties: {}
+  status: 4
+  type: 1
+  variables: null
+  width: 1600
+  x: 2000
+  y: 61400
+- auto_size: false
+  canvas_id: 206b6ce2-8204-42b2-8c36-441aedc4010f
+  compute_settings:
+    compute_environment_type: 1
+    executor_image_id: null
+  description: Defines comprehensive Pydantic validation models for API requests (organizations,
+    members, projects, tasks) with custom validators for business rules, enum constraints,
+    and field requirements
+  height: 1000
+  id: 538a8599-1cb1-4881-84b7-f100bb811b6a
+  layer_id: b2225b6b-e2df-4165-800e-7ce606c7f2a7
+  name: input_validation_pydantic
+  parent_id: null
+  properties: {}
+  status: 3
+  type: 1
+  variables: null
+  width: 1600
+  x: 0
+  y: 67400
+- auto_size: false
+  canvas_id: 206b6ce2-8204-42b2-8c36-441aedc4010f
+  compute_settings:
+    compute_environment_type: 1
+    executor_image_id: null
+  description: Manages organization user invitations with secure token generation,
+    role assignment, expiration tracking, and acceptance/revocation workflows
+  height: 1000
+  id: 58b9e976-8368-41f1-9860-ba8b97b0c4ff
+  layer_id: b2225b6b-e2df-4165-800e-7ce606c7f2a7
+  name: organization_invitation_system
+  parent_id: null
+  properties: {}
+  status: 3
+  type: 1
+  variables: null
+  width: 1600
+  x: 0
+  y: 27000
+- auto_size: false
+  canvas_id: 206b6ce2-8204-42b2-8c36-441aedc4010f
+  compute_settings:
+    compute_environment_type: 1
+    executor_image_id: null
+  description: ''
+  height: 1000
+  id: 5ecd2833-324d-48da-acfd-8d992f18ce4d
+  layer_id: b2225b6b-e2df-4165-800e-7ce606c7f2a7
+  name: notification_ui_components
+  parent_id: null
+  properties: {}
+  status: 3
+  type: 1
+  variables: null
+  width: 1600
+  x: 0
+  y: 79400
+- auto_size: false
+  canvas_id: 206b6ce2-8204-42b2-8c36-441aedc4010f
+  compute_settings:
+    compute_environment_type: 1
+    executor_image_id: null
+  description: Implements decorator-based API guards that enforce RBAC permission
+    checks on routes with support for role hierarchy, ownership validation, and organization
+    context
+  height: 1000
+  id: 63cb7da9-4d93-45e1-a395-50ed319ca681
+  layer_id: b2225b6b-e2df-4165-800e-7ce606c7f2a7
+  name: api_route_guards
+  parent_id: null
+  properties: {}
+  status: 3
+  type: 1
+  variables: null
+  width: 1600
+  x: 2000
+  y: 15000
+- auto_size: false
+  canvas_id: 206b6ce2-8204-42b2-8c36-441aedc4010f
+  compute_settings:
+    compute_environment_type: 1
+    executor_image_id: null
+  description: Provides read-optimized dashboard APIs with multi-level metrics (organization,
+    project, user) including task summaries, activity feeds, and role-aware filtering
+    with built-in caching
+  height: 1000
+  id: 64bf9542-538d-478f-99f2-e8c5fdccc6f6
+  layer_id: b2225b6b-e2df-4165-800e-7ce606c7f2a7
+  name: dashboard_api_services
+  parent_id: null
+  properties: {}
+  status: 3
+  type: 1
+  variables: null
+  width: 1600
+  x: 0
+  y: 70400
+- auto_size: false
+  canvas_id: 206b6ce2-8204-42b2-8c36-441aedc4010f
+  compute_settings:
+    compute_environment_type: 1
+    executor_image_id: null
+  description: Initializes SessionManager with secure session creation, token blacklisting,
+    expiration tracking, and session lifecycle management
+  height: 1000
+  id: 69394b52-ded0-4677-8654-b1e6f2a7b939
+  layer_id: b2225b6b-e2df-4165-800e-7ce606c7f2a7
+  name: session_manager
+  parent_id: null
+  properties: {}
+  status: 3
+  type: 1
+  variables: null
+  width: 1600
+  x: 0
+  y: 9000
+- auto_size: false
+  canvas_id: 206b6ce2-8204-42b2-8c36-441aedc4010f
+  compute_settings:
+    compute_environment_type: 1
+    executor_image_id: null
+  description: React component for managing organization members, roles, and invitations
+    with tabbed UI for members, invitations, and org details
+  height: 1000
+  id: 7260a2c2-a9c5-4f9d-a74c-b50a477fa483
+  layer_id: b2225b6b-e2df-4165-800e-7ce606c7f2a7
+  name: organization_settings_ui
+  parent_id: null
+  properties: {}
+  status: 3
+  type: 1
+  variables: null
+  width: 1600
+  x: 0
+  y: 46400
+- auto_size: false
+  canvas_id: 206b6ce2-8204-42b2-8c36-441aedc4010f
+  compute_settings:
+    compute_environment_type: 1
+    executor_image_id: null
+  description: React components for project member management and activity timeline
+    tracking with role-based controls and Zerve design system styling
+  height: 1000
+  id: 747ab6c3-dede-4e47-8832-230fffd266cf
+  layer_id: b2225b6b-e2df-4165-800e-7ce606c7f2a7
+  name: members_and_activity_tabs
+  parent_id: null
+  properties: {}
+  status: 3
+  type: 1
+  variables: null
+  width: 1600
+  x: 4000
+  y: 49400
+- auto_size: false
+  canvas_id: 206b6ce2-8204-42b2-8c36-441aedc4010f
+  compute_settings:
+    compute_environment_type: 1
+    executor_image_id: null
+  description: ''
+  height: 1000
+  id: 773b340a-d6a9-4720-bb84-dac8faba9e48
+  layer_id: b2225b6b-e2df-4165-800e-7ce606c7f2a7
+  name: database_indexing_strategy
+  parent_id: null
+  properties: {}
+  status: 3
+  type: 1
+  variables: null
+  width: 1600
+  x: 0
+  y: 85400
+- auto_size: false
+  canvas_id: 206b6ce2-8204-42b2-8c36-441aedc4010f
+  compute_settings:
+    compute_environment_type: 1
+    executor_image_id: null
+  description: REST API layer with CRUD endpoints, role-based access control, and
+    multi-tenant isolation for project management
+  height: 1000
+  id: 794d3862-28be-4286-bae4-ed266fbf8a97
+  layer_id: b2225b6b-e2df-4165-800e-7ce606c7f2a7
+  name: project_api_layer
+  parent_id: null
+  properties: {}
+  status: 4
+  type: 1
+  variables: null
+  width: 1600
+  x: 2000
+  y: 42000
+- auto_size: false
+  canvas_id: 206b6ce2-8204-42b2-8c36-441aedc4010f
+  compute_settings:
+    compute_environment_type: 1
+    executor_image_id: null
+  description: Defines multi-tenant PostgreSQL schema with organization isolation,
+    RLS security, tables for users/projects/tasks/subtasks, comprehensive indexing,
+    and audit trail
+  height: 1000
+  id: 84a4fc23-b30f-4e0a-88ea-b168c414576d
+  layer_id: b2225b6b-e2df-4165-800e-7ce606c7f2a7
+  name: schema_design
+  parent_id: null
+  properties: {}
+  status: 3
+  type: 1
+  variables: null
+  width: 1600
+  x: 0
+  y: 12000
+- auto_size: false
+  canvas_id: 206b6ce2-8204-42b2-8c36-441aedc4010f
+  compute_settings:
+    compute_environment_type: 1
+    executor_image_id: null
+  description: Generates Next.js authentication UI components including login, signup,
+    and OAuth callback pages with Zerve design system styling
+  height: 1000
+  id: 86c933fc-cd2d-4c0a-898b-2056d8560018
+  layer_id: b2225b6b-e2df-4165-800e-7ce606c7f2a7
+  name: frontend_auth_components
+  parent_id: null
+  properties: {}
+  status: 3
+  type: 1
+  variables: null
+  width: 1600
+  x: 0
+  y: 18000
+- auto_size: false
+  canvas_id: 206b6ce2-8204-42b2-8c36-441aedc4010f
+  compute_settings:
+    compute_environment_type: 1
+    executor_image_id: null
+  description: ''
+  height: 1000
+  id: 90dbeed6-a2d3-41de-a554-c11e8f43dcc7
+  layer_id: b2225b6b-e2df-4165-800e-7ce606c7f2a7
+  name: security_headers_system
+  parent_id: null
+  properties: {}
+  status: 3
+  type: 1
+  variables: null
+  width: 1600
+  x: 0
+  y: 73400
+- auto_size: false
+  canvas_id: 206b6ce2-8204-42b2-8c36-441aedc4010f
+  compute_settings:
+    compute_environment_type: 1
+    executor_image_id: null
+  description: Enforces tenant isolation by extracting organization_id from JWT tokens
+    and blocking cross-organization access
+  height: 1000
+  id: 98e8206e-70c1-439c-9540-b9110448d286
+  layer_id: b2225b6b-e2df-4165-800e-7ce606c7f2a7
+  name: tenant_isolation_middleware
+  parent_id: null
+  properties: {}
+  status: 3
+  type: 1
+  variables: null
+  width: 1600
+  x: 2000
+  y: 3000
+- auto_size: false
+  canvas_id: 206b6ce2-8204-42b2-8c36-441aedc4010f
+  compute_settings:
+    compute_environment_type: 1
+    executor_image_id: null
+  description: Implements React Error Boundaries, centralized error handling, and
+    toast notifications with automatic error categorization and user-friendly messaging
+  height: 1000
+  id: 9f213fbd-db49-429d-9388-eb4b14706b9f
+  layer_id: b2225b6b-e2df-4165-800e-7ce606c7f2a7
+  name: global_error_handling
+  parent_id: null
+  properties: {}
+  status: 3
+  type: 1
+  variables: null
+  width: 1600
+  x: 0
+  y: 30000
+- auto_size: false
+  canvas_id: 206b6ce2-8204-42b2-8c36-441aedc4010f
+  compute_settings:
+    compute_environment_type: 1
+    executor_image_id: null
+  description: End-to-end test demonstrating complete organization lifecycle including
+    creation, member onboarding, invitations, role management, tier upgrades, and
+    audit logging
+  height: 1000
+  id: a58b6d90-8c65-491a-bd28-2f65c475ee3a
+  layer_id: b2225b6b-e2df-4165-800e-7ce606c7f2a7
+  name: integrated_system_test
+  parent_id: null
+  properties: {}
+  status: 3
+  type: 1
+  variables: null
+  width: 1600
+  x: 0
+  y: 39000
+- auto_size: false
+  canvas_id: 206b6ce2-8204-42b2-8c36-441aedc4010f
+  compute_settings:
+    compute_environment_type: 1
+    executor_image_id: null
+  description: ''
+  height: 1000
+  id: a84b9715-9a89-4007-8609-4148b73b0e18
+  layer_id: b2225b6b-e2df-4165-800e-7ce606c7f2a7
+  name: async_request_handling
+  parent_id: null
+  properties: {}
+  status: 3
+  type: 1
+  variables: null
+  width: 1600
+  x: 0
+  y: 91400
+- auto_size: false
+  canvas_id: 206b6ce2-8204-42b2-8c36-441aedc4010f
+  compute_settings:
+    compute_environment_type: 1
+    executor_image_id: null
+  description: 'Generates React/Next.js frontend authentication components: ProtectedRoute
+    HOC, AuthContext provider, middleware, app wrapper, and 403 page with role & permission
+    checks'
+  height: 1000
+  id: adcb0e65-a40b-4a10-bdb5-c497c200af27
+  layer_id: b2225b6b-e2df-4165-800e-7ce606c7f2a7
+  name: protected_route_middleware
+  parent_id: null
+  properties: {}
+  status: 3
+  type: 1
+  variables: null
+  width: 1600
+  x: 0
+  y: 21000
+- auto_size: false
+  canvas_id: 206b6ce2-8204-42b2-8c36-441aedc4010f
+  compute_settings:
+    compute_environment_type: 1
+    executor_image_id: null
+  description: Builds React/TypeScript project detail page with tabbed interface for
+    overview, tasks, members, and activity. Includes Kanban task board with drag-drop
+    status updates, priority indicators, and quick stats sidebar.
+  height: 1000
+  id: b7494e7e-781e-45b7-becc-50d4b339d228
+  layer_id: b2225b6b-e2df-4165-800e-7ce606c7f2a7
+  name: project_detail_page
+  parent_id: null
+  properties: {}
+  status: 3
+  type: 1
+  variables: null
+  width: 1600
+  x: 2000
+  y: 49400
+- auto_size: false
+  canvas_id: 206b6ce2-8204-42b2-8c36-441aedc4010f
+  compute_settings:
+    compute_environment_type: 1
+    executor_image_id: null
+  description: Comprehensive end-to-end test suite validating JWT registration, token
+    rotation, OAuth flows, session management, and token revocation for production-ready
+    authentication
+  height: 1000
+  id: b9820a9d-6d44-43a8-b63e-51c0ca12d3ba
+  layer_id: b2225b6b-e2df-4165-800e-7ce606c7f2a7
+  name: test_complete_flows
+  parent_id: null
+  properties: {}
+  status: 3
+  type: 1
+  variables: null
+  width: 1600
+  x: 4000
+  y: 9000
+- auto_size: false
+  canvas_id: 206b6ce2-8204-42b2-8c36-441aedc4010f
+  compute_settings:
+    compute_environment_type: 1
+    executor_image_id: null
+  description: Integrates JWT, OAuth, and session management for complete user authentication
+    with token rotation, revocation, and multi-provider support
+  height: 1000
+  id: b989bbd6-81a5-4660-973a-350a700f3994
+  layer_id: b2225b6b-e2df-4165-800e-7ce606c7f2a7
+  name: auth_system_integration
+  parent_id: null
+  properties: {}
+  status: 3
+  type: 1
+  variables: null
+  width: 1600
+  x: 2000
+  y: 9000
+- auto_size: false
+  canvas_id: 206b6ce2-8204-42b2-8c36-441aedc4010f
+  compute_settings: null
+  description: Summarizes complete project management system implementation including
+    frontend UI components (list, detail, task board, members, activity), backend
+    CRUD infrastructure, design system integration, security controls, and next steps
+    for production deployment
+  height: 1000
+  id: bc1ab754-7a56-41b5-8764-2ac75081b1c0
+  layer_id: b2225b6b-e2df-4165-800e-7ce606c7f2a7
+  name: project_system_summary
+  parent_id: null
+  properties: {}
+  status: 1
+  type: 4
+  variables: null
+  width: 1600
+  x: 6000
+  y: 49400
+- auto_size: false
+  canvas_id: 206b6ce2-8204-42b2-8c36-441aedc4010f
+  compute_settings:
+    compute_environment_type: 1
+    executor_image_id: null
+  description: ''
+  height: 1000
+  id: be50ee23-cbe7-4ec4-941b-ea823a03b0b1
+  layer_id: b2225b6b-e2df-4165-800e-7ce606c7f2a7
+  name: stateless_service_design
+  parent_id: null
+  properties: {}
+  status: 3
+  type: 1
+  variables: null
+  width: 1600
+  x: 0
+  y: 94400
+- auto_size: false
+  canvas_id: 206b6ce2-8204-42b2-8c36-441aedc4010f
+  compute_settings:
+    compute_environment_type: 1
+    executor_image_id: null
+  description: React component for task detail modal with multi-tab interface for
+    details, comments, and activity history with inline editing
+  height: 1000
+  id: c4f35a5b-c88c-4d56-ad52-6e36a573c2fa
+  layer_id: b2225b6b-e2df-4165-800e-7ce606c7f2a7
+  name: task_detail_page
+  parent_id: null
+  properties: {}
+  status: 3
+  type: 1
+  variables: null
+  width: 1600
+  x: 4000
+  y: 55400
+- auto_size: false
+  canvas_id: 206b6ce2-8204-42b2-8c36-441aedc4010f
+  compute_settings:
+    compute_environment_type: 1
+    executor_image_id: null
+  description: ''
+  height: 1000
+  id: cd456eca-3f60-4bf4-a678-800d950706b1
+  layer_id: b2225b6b-e2df-4165-800e-7ce606c7f2a7
+  name: test_dashboard_services
+  parent_id: null
+  properties: {}
+  status: 4
+  type: 1
+  variables: null
+  width: 1600
+  x: 2000
+  y: 70400
+- auto_size: false
+  canvas_id: 206b6ce2-8204-42b2-8c36-441aedc4010f
+  compute_settings:
+    compute_environment_type: 1
+    executor_image_id: null
+  description: Installs JWT authentication dependencies (PyJWT, cryptography, requests,
+    authlib, python-dotenv)
+  height: 1000
+  id: d86e7708-070e-40c9-8ff2-b25e8113661a
+  layer_id: b2225b6b-e2df-4165-800e-7ce606c7f2a7
+  name: install_dependencies
+  parent_id: null
+  properties: {}
+  status: 3
+  type: 1
+  variables: null
+  width: 1600
+  x: 0
+  y: 0
+- auto_size: false
+  canvas_id: 206b6ce2-8204-42b2-8c36-441aedc4010f
+  compute_settings:
+    compute_environment_type: 1
+    executor_image_id: null
+  description: ''
+  height: 1000
+  id: dd42a63f-7e74-4965-995f-50207e752766
+  layer_id: b2225b6b-e2df-4165-800e-7ce606c7f2a7
+  name: scaling_architecture_summary
+  parent_id: null
+  properties: {}
+  status: 3
+  type: 1
+  variables: null
+  width: 1600
+  x: 0
+  y: 100400
+- auto_size: false
+  canvas_id: 206b6ce2-8204-42b2-8c36-441aedc4010f
+  compute_settings:
+    compute_environment_type: 1
+    executor_image_id: null
+  description: Initializes OAuth2 manager supporting Google and GitHub with CSRF protection
+    and token exchange
+  height: 1000
+  id: e1b009e3-b937-4942-8da4-5a41cdd9d0e5
+  layer_id: b2225b6b-e2df-4165-800e-7ce606c7f2a7
+  name: oauth_manager
+  parent_id: null
+  properties: {}
+  status: 3
+  type: 1
+  variables: null
+  width: 1600
+  x: 0
+  y: 6000
+- auto_size: false
+  canvas_id: 206b6ce2-8204-42b2-8c36-441aedc4010f
+  compute_settings:
+    compute_environment_type: 1
+    executor_image_id: null
+  description: ''
+  height: 1000
+  id: e9645134-eb46-439e-8a36-511c781c2199
+  layer_id: b2225b6b-e2df-4165-800e-7ce606c7f2a7
+  name: task_management_summary
+  parent_id: null
+  properties: {}
+  status: 3
+  type: 1
+  variables: null
+  width: 1600
+  x: 8000
+  y: 55400
+- auto_size: false
+  canvas_id: 206b6ce2-8204-42b2-8c36-441aedc4010f
+  compute_settings:
+    compute_environment_type: 1
+    executor_image_id: null
+  description: Event-driven notification system with listener pattern supporting task
+    assignments, status updates, and due date reminders across multiple delivery channels
+    with user preferences
+  height: 1000
+  id: efcd3506-2a4b-4b3a-9177-5cec4bbe7694
+  layer_id: b2225b6b-e2df-4165-800e-7ce606c7f2a7
+  name: notification_service
+  parent_id: null
+  properties: {}
+  status: 3
+  type: 1
+  variables: null
+  width: 1600
+  x: 0
+  y: 61400
+- auto_size: false
+  canvas_id: 206b6ce2-8204-42b2-8c36-441aedc4010f
+  compute_settings:
+    compute_environment_type: 1
+    executor_image_id: null
+  description: Creates ERD visualization for multi-tenant PostgreSQL schema with 10
+    entities, relationships, and RLS policies
+  height: 1000
+  id: f2f35091-73a2-4721-a399-73d67a2f45e7
+  layer_id: b2225b6b-e2df-4165-800e-7ce606c7f2a7
+  name: schema_visualization
+  parent_id: null
+  properties: {}
+  status: 3
+  type: 1
+  variables: null
+  width: 1600
+  x: 2000
+  y: 12000
+- auto_size: false
+  canvas_id: 206b6ce2-8204-42b2-8c36-441aedc4010f
+  compute_settings:
+    compute_environment_type: 1
+    executor_image_id: null
+  description: ''
+  height: 1000
+  id: f408db6b-c175-420f-9c13-f0bdecdf9150
+  layer_id: b2225b6b-e2df-4165-800e-7ce606c7f2a7
+  name: frontend_code_splitting
+  parent_id: null
+  properties: {}
+  status: 3
+  type: 1
+  variables: null
+  width: 1600
+  x: 0
+  y: 88400
+- auto_size: false
+  canvas_id: 206b6ce2-8204-42b2-8c36-441aedc4010f
+  compute_settings:
+    compute_environment_type: 1
+    executor_image_id: null
+  description: Implements complete organization CRUD APIs with member management including
+    create/read/update/delete organizations, add/remove/promote members, and organization
+    statistics with role-based access control
+  height: 1000
+  id: fa503459-6ea9-4751-98c0-ae64d02daa72
+  layer_id: b2225b6b-e2df-4165-800e-7ce606c7f2a7
+  name: organization_crud_apis
+  parent_id: null
+  properties: {}
+  status: 3
+  type: 1
+  variables: null
+  width: 1600
+  x: 0
+  y: 33000
+- auto_size: false
+  canvas_id: 206b6ce2-8204-42b2-8c36-441aedc4010f
+  compute_settings:
+    compute_environment_type: 1
+    executor_image_id: null
+  description: Generates OpenAPI 3.0 specification for multi-tenant project management
+    API with JWT auth, organization/project/task schemas, and rate limiting
+  height: 1000
+  id: ff09ff31-bce3-4584-a845-96463601e954
+  layer_id: b2225b6b-e2df-4165-800e-7ce606c7f2a7
+  name: openapi_swagger_docs
+  parent_id: null
+  properties: {}
+  status: 3
+  type: 1
+  variables: null
+  width: 1600
+  x: 0
+  y: 58400
+edges:
+- canvas_id: 206b6ce2-8204-42b2-8c36-441aedc4010f
+  id: 095088e3-e7b1-4ea8-958b-18824c10c80a
+  layer_id: b2225b6b-e2df-4165-800e-7ce606c7f2a7
+  source: 0e5c9470-f498-4f44-a83c-d82988b6cad2
+  target: cd456eca-3f60-4bf4-a678-800d950706b1
+- canvas_id: 206b6ce2-8204-42b2-8c36-441aedc4010f
+  id: 2a37f4b5-23e4-4200-994d-8b37ca456a55
+  layer_id: b2225b6b-e2df-4165-800e-7ce606c7f2a7
+  source: 25b07de5-be31-4b5a-8bd1-4e358e460beb
+  target: 63cb7da9-4d93-45e1-a395-50ed319ca681
+- canvas_id: 206b6ce2-8204-42b2-8c36-441aedc4010f
+  id: 374610d1-a3fe-4af9-a86e-28cd929da1d6
+  layer_id: b2225b6b-e2df-4165-800e-7ce606c7f2a7
+  source: 1c9698a2-da8b-4cdc-9f39-5bbd1a7bbdd9
+  target: 794d3862-28be-4286-bae4-ed266fbf8a97
+- canvas_id: 206b6ce2-8204-42b2-8c36-441aedc4010f
+  id: 3a14c5f9-18ee-42c2-b5c5-3cb61be225a8
+  layer_id: b2225b6b-e2df-4165-800e-7ce606c7f2a7
+  source: 98e8206e-70c1-439c-9540-b9110448d286
+  target: 0399eb24-acc3-4b5a-b010-585fbac98591
+- canvas_id: 206b6ce2-8204-42b2-8c36-441aedc4010f
+  id: 3d837bfb-f58f-4f0d-ac8a-c718fce7c5b7
+  layer_id: b2225b6b-e2df-4165-800e-7ce606c7f2a7
+  source: 9f213fbd-db49-429d-9388-eb4b14706b9f
+  target: 1657f976-c8ca-4fe8-9892-740ebc463718
+- canvas_id: 206b6ce2-8204-42b2-8c36-441aedc4010f
+  id: 44a8f09b-9124-4463-b732-bdf088db8226
+  layer_id: b2225b6b-e2df-4165-800e-7ce606c7f2a7
+  source: 036e7a4e-c185-4b7e-aca2-895072ae5f1a
+  target: 2106dfa9-6913-47ee-b115-f17293fe5511
+- canvas_id: 206b6ce2-8204-42b2-8c36-441aedc4010f
+  id: 4f4f1508-7cef-4aff-8360-834c66a42a7e
+  layer_id: b2225b6b-e2df-4165-800e-7ce606c7f2a7
+  source: 16d41e6b-bfdd-47b1-a614-a871554f28c5
+  target: 1657f976-c8ca-4fe8-9892-740ebc463718
+- canvas_id: 206b6ce2-8204-42b2-8c36-441aedc4010f
+  id: 54f1cd98-0ddf-41a9-8936-a6bca55c3dd8
+  layer_id: b2225b6b-e2df-4165-800e-7ce606c7f2a7
+  source: efcd3506-2a4b-4b3a-9177-5cec4bbe7694
+  target: 49b7e9ba-407a-4a6d-9e5f-b2df964a0993
+- canvas_id: 206b6ce2-8204-42b2-8c36-441aedc4010f
+  id: 561419b7-1655-4c4c-96fc-763351d58711
+  layer_id: b2225b6b-e2df-4165-800e-7ce606c7f2a7
+  source: 86c933fc-cd2d-4c0a-898b-2056d8560018
+  target: 1657f976-c8ca-4fe8-9892-740ebc463718
+- canvas_id: 206b6ce2-8204-42b2-8c36-441aedc4010f
+  id: 63cdb65a-62a4-4919-a6b1-a73063c423a5
+  layer_id: b2225b6b-e2df-4165-800e-7ce606c7f2a7
+  source: b7494e7e-781e-45b7-becc-50d4b339d228
+  target: bc1ab754-7a56-41b5-8764-2ac75081b1c0
+- canvas_id: 206b6ce2-8204-42b2-8c36-441aedc4010f
+  id: 668c5eea-32f8-4ab6-a622-62fd245b4092
+  layer_id: b2225b6b-e2df-4165-800e-7ce606c7f2a7
+  source: b7494e7e-781e-45b7-becc-50d4b339d228
+  target: 747ab6c3-dede-4e47-8832-230fffd266cf
+- canvas_id: 206b6ce2-8204-42b2-8c36-441aedc4010f
+  id: 71d40ae1-e22e-4f7d-a325-a964720dacba
+  layer_id: b2225b6b-e2df-4165-800e-7ce606c7f2a7
+  source: 64bf9542-538d-478f-99f2-e8c5fdccc6f6
+  target: cd456eca-3f60-4bf4-a678-800d950706b1
+- canvas_id: 206b6ce2-8204-42b2-8c36-441aedc4010f
+  id: 7b825c89-4fe8-4029-b286-88eaf3da2917
+  layer_id: b2225b6b-e2df-4165-800e-7ce606c7f2a7
+  source: 01b3b003-b515-4879-b18d-3bbc050358f0
+  target: 53482190-564c-4127-907e-16b85d0b928a
+- canvas_id: 206b6ce2-8204-42b2-8c36-441aedc4010f
+  id: 7d40483d-f295-4e7c-a90c-05fe4f4daa38
+  layer_id: b2225b6b-e2df-4165-800e-7ce606c7f2a7
+  source: 2106dfa9-6913-47ee-b115-f17293fe5511
+  target: e9645134-eb46-439e-8a36-511c781c2199
+- canvas_id: 206b6ce2-8204-42b2-8c36-441aedc4010f
+  id: 7d52d393-371d-49ab-b446-835e3cecaf69
+  layer_id: b2225b6b-e2df-4165-800e-7ce606c7f2a7
+  source: efcd3506-2a4b-4b3a-9177-5cec4bbe7694
+  target: 53482190-564c-4127-907e-16b85d0b928a
+- canvas_id: 206b6ce2-8204-42b2-8c36-441aedc4010f
+  id: 87986822-f45c-431a-9562-3bbb494385c0
+  layer_id: b2225b6b-e2df-4165-800e-7ce606c7f2a7
+  source: 01b3b003-b515-4879-b18d-3bbc050358f0
+  target: cd456eca-3f60-4bf4-a678-800d950706b1
+- canvas_id: 206b6ce2-8204-42b2-8c36-441aedc4010f
+  id: 890ec2a5-0bf1-4649-9ae7-0bbaffbe7d1a
+  layer_id: b2225b6b-e2df-4165-800e-7ce606c7f2a7
+  source: 136137a5-a405-4c50-a708-81e8c9f63410
+  target: bc1ab754-7a56-41b5-8764-2ac75081b1c0
+- canvas_id: 206b6ce2-8204-42b2-8c36-441aedc4010f
+  id: 8a082e82-ab07-42f2-bb40-98453a128b75
+  layer_id: b2225b6b-e2df-4165-800e-7ce606c7f2a7
+  source: 136137a5-a405-4c50-a708-81e8c9f63410
+  target: b7494e7e-781e-45b7-becc-50d4b339d228
+- canvas_id: 206b6ce2-8204-42b2-8c36-441aedc4010f
+  id: 8cb0f2dd-d519-4dd3-b671-a36078a7256f
+  layer_id: b2225b6b-e2df-4165-800e-7ce606c7f2a7
+  source: 036e7a4e-c185-4b7e-aca2-895072ae5f1a
+  target: e9645134-eb46-439e-8a36-511c781c2199
+- canvas_id: 206b6ce2-8204-42b2-8c36-441aedc4010f
+  id: 9fa743d9-7b1a-44c9-94d6-1a6b5867230e
+  layer_id: b2225b6b-e2df-4165-800e-7ce606c7f2a7
+  source: 747ab6c3-dede-4e47-8832-230fffd266cf
+  target: bc1ab754-7a56-41b5-8764-2ac75081b1c0
+- canvas_id: 206b6ce2-8204-42b2-8c36-441aedc4010f
+  id: afd540fc-c818-4356-920a-08daa27d7a2e
+  layer_id: b2225b6b-e2df-4165-800e-7ce606c7f2a7
+  source: c4f35a5b-c88c-4d56-ad52-6e36a573c2fa
+  target: 22296c92-be23-40a0-8ae1-4de968d16476
+- canvas_id: 206b6ce2-8204-42b2-8c36-441aedc4010f
+  id: b4ff4bdf-6c0b-4643-8049-2291f7217b30
+  layer_id: b2225b6b-e2df-4165-800e-7ce606c7f2a7
+  source: 40d6ddf6-156b-4c40-b888-dfc12902525e
+  target: b989bbd6-81a5-4660-973a-350a700f3994
+- canvas_id: 206b6ce2-8204-42b2-8c36-441aedc4010f
+  id: b69b333e-ed3b-4742-89bb-179f7f0d5d8e
+  layer_id: b2225b6b-e2df-4165-800e-7ce606c7f2a7
+  source: 2106dfa9-6913-47ee-b115-f17293fe5511
+  target: c4f35a5b-c88c-4d56-ad52-6e36a573c2fa
+- canvas_id: 206b6ce2-8204-42b2-8c36-441aedc4010f
+  id: bdd7e71a-6ea7-4e3f-9a37-ab958ee708c4
+  layer_id: b2225b6b-e2df-4165-800e-7ce606c7f2a7
+  source: 84a4fc23-b30f-4e0a-88ea-b168c414576d
+  target: f2f35091-73a2-4721-a399-73d67a2f45e7
+- canvas_id: 206b6ce2-8204-42b2-8c36-441aedc4010f
+  id: c5df852f-973f-47ed-97e9-e155ea9c2fc7
+  layer_id: b2225b6b-e2df-4165-800e-7ce606c7f2a7
+  source: b989bbd6-81a5-4660-973a-350a700f3994
+  target: b9820a9d-6d44-43a8-b63e-51c0ca12d3ba
+- canvas_id: 206b6ce2-8204-42b2-8c36-441aedc4010f
+  id: c84eaaaf-5210-48e6-94ad-60c1811d1c45
+  layer_id: b2225b6b-e2df-4165-800e-7ce606c7f2a7
+  source: 22296c92-be23-40a0-8ae1-4de968d16476
+  target: e9645134-eb46-439e-8a36-511c781c2199
+- canvas_id: 206b6ce2-8204-42b2-8c36-441aedc4010f
+  id: da7dd9b5-33ab-4044-bccf-d4ffecffbb4e
+  layer_id: b2225b6b-e2df-4165-800e-7ce606c7f2a7
+  source: 1c9698a2-da8b-4cdc-9f39-5bbd1a7bbdd9
+  target: cd456eca-3f60-4bf4-a678-800d950706b1
+- canvas_id: 206b6ce2-8204-42b2-8c36-441aedc4010f
+  id: e2a091a4-5fcf-4c6e-ade6-173fbb84187b
+  layer_id: b2225b6b-e2df-4165-800e-7ce606c7f2a7
+  source: 69394b52-ded0-4677-8654-b1e6f2a7b939
+  target: b989bbd6-81a5-4660-973a-350a700f3994
+- canvas_id: 206b6ce2-8204-42b2-8c36-441aedc4010f
+  id: e57dd012-55b6-424d-92df-bef63eb839be
+  layer_id: b2225b6b-e2df-4165-800e-7ce606c7f2a7
+  source: adcb0e65-a40b-4a10-bdb5-c497c200af27
+  target: 1657f976-c8ca-4fe8-9892-740ebc463718
+- canvas_id: 206b6ce2-8204-42b2-8c36-441aedc4010f
+  id: e8f17808-ecf3-495b-a359-e60e31ee74e5
+  layer_id: b2225b6b-e2df-4165-800e-7ce606c7f2a7
+  source: c4f35a5b-c88c-4d56-ad52-6e36a573c2fa
+  target: e9645134-eb46-439e-8a36-511c781c2199
+- canvas_id: 206b6ce2-8204-42b2-8c36-441aedc4010f
+  id: eae32fd0-5a29-4823-9f3f-44402e801ae1
+  layer_id: b2225b6b-e2df-4165-800e-7ce606c7f2a7
+  source: 1c9698a2-da8b-4cdc-9f39-5bbd1a7bbdd9
+  target: 4e49f616-e7d5-418e-a3b4-62dd24095c2e
+- canvas_id: 206b6ce2-8204-42b2-8c36-441aedc4010f
+  id: efe7245c-9377-4e37-9693-b65bb157fcbe
+  layer_id: b2225b6b-e2df-4165-800e-7ce606c7f2a7
+  source: 40d6ddf6-156b-4c40-b888-dfc12902525e
+  target: 98e8206e-70c1-439c-9540-b9110448d286
+- canvas_id: 206b6ce2-8204-42b2-8c36-441aedc4010f
+  id: fed2db68-33fc-41aa-b5c5-195bf5cb5967
+  layer_id: b2225b6b-e2df-4165-800e-7ce606c7f2a7
+  source: e1b009e3-b937-4942-8da4-5a41cdd9d0e5
+  target: b989bbd6-81a5-4660-973a-350a700f3994
